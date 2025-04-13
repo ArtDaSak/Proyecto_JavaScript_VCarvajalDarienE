@@ -1,0 +1,30 @@
+:root{
+    --lorem-orange: #DB8C6A;
+    --lorem-purple: #845FB3;
+    --lorem-green:  #8CBDAE;
+    --lorem-white:  #EBEBFF;
+    --lorem-black:  #111127;
+    --lorem-gray:   #C0C0CF;
+    --lorem-blue:   #225CB7;
+}
+
+@font-face {
+    font-family: "lorem-handwritten";
+    src: url(../assets/fonts/BalsamiqSans.ttf);
+}
+@font-face {
+    font-family: "lorem-dotted";
+    src: url(../assets/fonts/Codystar.ttf);
+}
+@font-face {
+    font-family: "lorem-indie";
+    src: url(../assets/fonts/IndieFlower.ttf);
+}
+@font-face {
+    font-family: "lorem-formal";
+    src: url(../assets/fonts/LeagueSpartan.ttf);
+}
+@font-face {
+    font-family: "lorem-futuristic";
+    src: url(../assets/fonts/Quantico.ttf);
+}
