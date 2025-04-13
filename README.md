@@ -28,7 +28,7 @@ En esta app puedes:
 
 ##  Instrucciones de uso:
 
-- 1️⃣ Abre la aplicación en tu navegador 🌐 desde el enlace de GitPages.
+- 1️⃣ Abre la aplicación en tu navegador 🌐 desde el enlace de [GitPages](https://artdasak.github.io/Proyecto_JavaScript_VCarvajalDarienE/).
 - 2️⃣ Selecciona la raza, clase, género y nombre de tu personaje 🧑.
 - 3️⃣ Personaliza tu personaje con armaduras, armas, accesorios, estadísticas y habilidades especiales 🛡️⚔️.
 - 4️⃣ Guarda 💾 tu personaje en tu lista personal.
@@ -152,7 +152,7 @@ Este proyecto cuenta con una [Licencia MIT](./LICENSE.md).
 
 ## ✨ Créditos:
 
-🧙‍♂️ Dungeons & Designers es un proyecto que se desarrolla con la intención de celebrar y rendir homenaje al maravilloso universo de Dungeons & Dragons. Todos los elementos, gráficos, sonidos y textos utilizados en esta aplicación son propiedad de sus respectivos autores y están protegidos por derechos de autor.
+🧙‍♂️ Dungeons & Designers es un proyecto que se desarrolla con la intención de celebrar y rendir homenaje al maravilloso universo de Dungeons & Dragons. Todos los elementos, gráficos, sonidos y textos utilizados en esta aplicación son propiedad de su respectiva autoría y están protegidos por derechos de autoría.
 
 En Dungeons & Designers, no pretendemos infringir los derechos de autoría de ninguna de estas herramientas o recursos. Todo el contenido se utiliza exclusivamente para fines educativos y de entretenimiento, y no tenemos la intención de apropiarnos de la autoría de ninguno de los elementos utilizados.
 
@@ -162,4 +162,4 @@ Agradecemos a cada persona que ha creado y a las comunidades que han hecho posib
 
 ## 👀 Disclaimer:
 
-Este proyecto fue desarrollado con apoyo de herramientas de inteligencia artificial (IA), utilizadas con fines exclusivamente educativos y de aprendizaje personal.
+Este proyecto fue desarrollado con apoyo de herramientas de inteligencia artificial (IA), mayormente Charlie (ChatGPT de Open AI), utilizadas con fines exclusivamente educativos y de aprendizaje personal.
