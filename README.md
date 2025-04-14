@@ -26,7 +26,7 @@ En esta app puedes:
 
 ---
 
-##  Instrucciones de uso:
+## 🧭 Instrucciones de uso:
 
 - 1️⃣ Abre la aplicación en tu navegador 🌐 desde el enlace de [GitPages](https://artdasak.github.io/Proyecto_JavaScript_VCarvajalDarienE/).
 - 2️⃣ Selecciona la raza, clase, género y nombre de tu personaje 🧑.
@@ -111,7 +111,7 @@ En esta app puedes:
 
 ---
 
-## Estructura:
+## 📂 Estructura:
 
 ```bash
 ├── 📁 assets/                                     # Recursos gráficos.
@@ -125,6 +125,7 @@ En esta app puedes:
 │ │ │ └── 📝 characterList.css                     # Estilo para la página de lista de personajes.
 │ │ ├── 📝 style.css                               # Estilo de la página principal.
 │ │ └── 📝 variables.css                           # Variables para las hojas de estilo.
+├── 📁 data/                                       # Archivos JSON.
 ├── 📁 js/                                         # Archivos de JS.
 │ ├── 📁 scripts/                                  # Scripts para las subpáginas.
 │ │ ├── 📝 characterBuilder.js                     # Script para la página de construcción de personajes.
@@ -157,6 +158,8 @@ Este proyecto cuenta con una [Licencia MIT](./LICENSE.md).
 En Dungeons & Designers, no pretendemos infringir los derechos de autoría de ninguna de estas herramientas o recursos. Todo el contenido se utiliza exclusivamente para fines educativos y de entretenimiento, y no tenemos la intención de apropiarnos de la autoría de ninguno de los elementos utilizados.
 
 Agradecemos a cada persona que ha creado y a las comunidades que han hecho posible esta experiencia. Todo el apoyo brindado es fundamental para equipos de desarrollo y artistas que contribuyen al mundo de los videojuegos y apps interactivas.
+
+El proyecto es diseñado con 💖 por _ArtDaSak_ (Darien Carvajal) y _Charlie_ (ChatGPT de Open AI, IA colaborativa).
 
 ---
 
