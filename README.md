@@ -81,6 +81,14 @@ En esta app puedes:
         <a href="https://www.dnd5eapi.co" target="_blank" rel="noreferrer">D&D 5th Edition API</a>
         .
     </li>
+    <li>
+        <a href="https://mockapi.io" target="_blank" rel="noreferrer">
+        <img src="https://mockapi.io/favicon.ico" alt="MockAPI" width="15"/>
+        </a>
+        MockAPI para demás personalización:
+        <a href="https://67fc6c5d1f8b41c816866d84.mockapi.io/api/v1" target="_blank" rel="noreferrer">Dungeons & Designers</a>
+        (de mi misma autoría).
+    </li>
     <li>  
         <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="15"/>
