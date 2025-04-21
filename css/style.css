@@ -1,25 +1,115 @@
 @import url(./variables.css);
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(../assets/img/dungeonsAndDragonsBackground.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
+body {
+    position: relative;
+    background: url(../assets/img/dungeonsAndDragonsBackground.jpeg) no-repeat center top / cover fixed;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: ;
+    padding: 1vw 3.4vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
 }
-.header img{
-    width: 120px;
+
+.header img {
+    width: 13vw;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 5.7vw;
+    background-color: transparent;
+}
+
+.header nav ul a {
+    text-decoration: none;
+    color: var(--lorem-white);
+    font-family: "lorem-handwritten";
+    font-size: 2vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--lorem-white);
+    margin: 7vw;
+}
+
+.main h1 {
+    font-size: 5vw;
+    margin: 2vw 0;
+    text-align: center;
+    font-family: "lorem-handwritten";
+    text-shadow: 2px 2px 4px var(--lorem-black);
+    background-color: var(--lorem-purple);
+}
+
+.main p {
+    font-size: 2vw;
+    padding: 3vw 5vw;
+    background-color: var(--lorem-black);
+    text-align: center;
+    font-family: "lorem-indie";
+}
+
+.button {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 20vw;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.button img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+    display: block;
+}
+
+.button__span {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--lorem-white);
+    font-family: "lorem-handwritten";
+    font-size: 1.5vw;
+    text-align: center;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--lorem-purple);
+    color: var(--lorem-white);
+    font-family: "lorem-dotted";
+    font-size: 1.2vw;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
 }
