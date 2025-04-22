@@ -11,18 +11,18 @@ body {
     background: url(../assets/img/dungeonsAndDragonsBackground.jpeg) no-repeat center top / cover fixed;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1vw 3.4vw;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    width: 100%;
+.header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 1vw 3.4vw;  
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
     z-index: 1000;
-    backdrop-filter: blur(5px);
-}
+    background-color: var(--raisin-black-75);
+    transition: background-color 0.2s ease;
+}  
 
 .header img {
     width: 13vw;
@@ -57,7 +57,7 @@ body {
     text-align: center;
     font-family: "lorem-handwritten";
     text-shadow: 2px 2px 4px var(--lorem-black);
-    background-color: var(--lorem-purple);
+    background-color: var(--purple);
 }
 
 .main p {
@@ -89,9 +89,8 @@ body {
 
 .button__span {
     position: absolute;
-    top: 47%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     color: var(--lorem-white);
     font-family: "lorem-handwritten";
     font-size: 1.5vw;
@@ -111,5 +110,5 @@ body {
     font-size: 1.2vw;
     text-align: center;
     padding: 10px 0;
-    z-index: 1000;
+    z-index: 10;
 }

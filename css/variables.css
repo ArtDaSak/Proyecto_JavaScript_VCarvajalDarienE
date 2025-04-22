@@ -1,4 +1,6 @@
 :root{
+    --raisin-black-75: rgba(43, 39, 47,  0.75);
+    --purple-75:       rgba(106, 13, 133, 0.75);
     --fire-engine-red: #D0292A;
     --columbia-blue:   #D6EFFF;
     --raisin-black:    #2B272F;
