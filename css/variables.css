@@ -1,30 +1,69 @@
 :root{
-    --lorem-orange: #DB8C6A;
-    --lorem-purple: #845FB3;
-    --lorem-green:  #8CBDAE;
-    --lorem-white:  #EBEBFF;
-    --lorem-black:  #111127;
-    --lorem-gray:   #C0C0CF;
-    --lorem-blue:   #225CB7;
+    --fire-engine-red: #D0292A;
+    --columbia-blue:   #D6EFFF;
+    --raisin-black:    #2B272F;
+    --dodger-blue:     #1E90FF;
+    --tang-blue:       #0052D4;
+    --sea-green:       #2E8B57;
+    --icterine:        #FFFF58;
+    --xanthous:        #EFBA47;
+    --emerald:         #50C878;
+    --purple:          #6A0D85;
 }
 
 @font-face {
-    font-family: "lorem-handwritten";
-    src: url(../assets/fonts/BalsamiqSans.ttf);
+    font-family: "charm-bold";
+    src: url(../assets/fonts/Charm-Bold.ttf);
 }
 @font-face {
-    font-family: "lorem-dotted";
-    src: url(../assets/fonts/Codystar.ttf);
+    font-family: "charm-regular";
+    src: url(../assets/fonts/Charm-Regular.ttf);
 }
 @font-face {
-    font-family: "lorem-indie";
-    src: url(../assets/fonts/IndieFlower.ttf);
+    font-family: "cinzel-black";
+    src: url(../assets/fonts/Cinzel-Black.ttf);
 }
 @font-face {
-    font-family: "lorem-formal";
-    src: url(../assets/fonts/LeagueSpartan.ttf);
+    font-family: "cinzel-bold";
+    src: url(../assets/fonts/Cinzel-Bold.ttf);
 }
 @font-face {
-    font-family: "lorem-futuristic";
-    src: url(../assets/fonts/Quantico.ttf);
+    font-family: "cinzel-extra-bold";
+    src: url(../assets/fonts/Cinzel-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "cinzel-medium";
+    src: url(../assets/fonts/Cinzel-Medium.ttf);
+}
+@font-face {
+    font-family: "cinzel-regular";
+    src: url(../assets/fonts/Cinzel-Regular.ttf);
+}
+@font-face {
+    font-family: "cinzel-semi-bold";
+    src: url(../assets/fonts/Cinzel-SemiBold.ttf);
+}
+@font-face {
+    font-family: "cinzel-variablefont";
+    src: url(../assets/fonts/Cinzel-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "diplomaticasc-regular";
+    src: url(../assets/fonts/DiplomataSc-Regular.ttf);
+}
+@font-face {
+    font-family: "homemadeapple-regular";
+    src: url(../assets/fonts/HomemadeApple-Regular.ttf);
+}
+@font-face {
+    font-family: "kings-regular";
+    src: url(../assets/fonts/Kings-Regular.ttf);
+}
+@font-face {
+    font-family: "lavishlyyours-regular";
+    src: url(../assets/fonts/LavishlyYours-Regular.ttf);
+}
+@font-face {
+    font-family: "lovelight-regular";
+    src: url(../assets/fonts/LoveLight-Regular.ttf);
 }
