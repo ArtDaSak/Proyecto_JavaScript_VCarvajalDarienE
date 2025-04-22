@@ -12,35 +12,34 @@ body {
 }
 
 .header {  
-    display: flex;  
-    justify-content: space-between;  
-    align-items: center;  
-    padding: 1vw 3.4vw;  
-    position: fixed;  
-    top: 0;  
-    width: 100%;  
-    z-index: 1000;
-    background-color: var(--raisin-black-75);
-    transition: background-color 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 3.4vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--raisin-black-transparent-50);
+    transition: background-color 0.27s ease, backdrop-filter 0.27s ease;
+    backdrop-filter: blur(0.27vw);
+    box-shadow: 0 0.5vw 1vw var(--raisin-black-transparent-90);
 }  
-
 .header img {
-    width: 13vw;
+    width: 12vw;
 }
-
-.header nav {
+.header nav ul {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 5.7vw;
     background-color: transparent;
 }
-
-.header nav ul a {
+.header nav ul li a {
     text-decoration: none;
-    color: var(--lorem-white);
-    font-family: "lorem-handwritten";
-    font-size: 2vw;
+    font-family: "cinzel-regular";
+    font-size: 1.7vw;
+    color: var(--columbia-blue);
 }
 
 .main {
@@ -48,52 +47,55 @@ body {
     flex-direction: column;
     align-items: center;
     color: var(--lorem-white);
-    margin: 7vw;
+    margin: 5.7vw;
 }
-
 .main h1 {
-    font-size: 5vw;
-    margin: 2vw 0;
-    text-align: center;
-    font-family: "lorem-handwritten";
-    text-shadow: 2px 2px 4px var(--lorem-black);
-    background-color: var(--purple);
+    margin: 2vw 0 1vw 0;
+    font-size: 3.27vw;
+    font-family: "diplomatasc-regular";
+    text-align: start;
+    color: var(--fire-engine-red);
+    text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black-transparent-90);
 }
-
 .main p {
-    font-size: 2vw;
+    font-size: 1.32vw;
     padding: 3vw 5vw;
-    background-color: var(--lorem-black);
-    text-align: center;
-    font-family: "lorem-indie";
+    color: var(--xanthous);
+    text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
+    background-color: var(--purple-transparent-75);
+    text-align: start;
+    font-family: "cinzel-regular";
 }
 
-.button {
-    position: relative;
-    margin-top: 20px;
-    width: 100%;
-    max-width: 20vw;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
-
-.button img {
-    width: 100%;
+.button {  
+    position: relative;  
+    margin-top: 20px;  
+    width: 100%;  
+    max-width: 20vw;  
+    background-color: transparent;  
+    border: none;  
+    padding: 0;  
+    cursor: pointer;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+.button img {  
+    width: 100%;  
     height: auto;
     object-fit: contain;
     border-radius: 5px;
     display: block;
 }
-
 .button__span {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: var(--lorem-white);
-    font-family: "lorem-handwritten";
-    font-size: 1.5vw;
+    transform: translate(-52.1%, -70%);
+    color: var(--xanthous);
+    font-family: "cinzel-regular";
+    font-size: 2.1vw;
+    text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
     text-align: center;
     z-index: 1;
     white-space: nowrap;
@@ -102,13 +104,12 @@ body {
 .footer {
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
-    background-color: var(--lorem-purple);
-    color: var(--lorem-white);
-    font-family: "lorem-dotted";
-    font-size: 1.2vw;
+    background-color: var(--purple);
+    color: var(--columbia-blue);
+    font-family: "medievalsharp-regular";
+    font-size: 0.9vw;
     text-align: center;
-    padding: 10px 0;
+    padding: 0.2vw;
     z-index: 10;
 }

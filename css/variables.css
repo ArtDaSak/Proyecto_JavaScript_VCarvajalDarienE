@@ -1,16 +1,18 @@
 :root{
-    --raisin-black-75: rgba(43, 39, 47,  0.75);
-    --purple-75:       rgba(106, 13, 133, 0.75);
-    --fire-engine-red: #D0292A;
-    --columbia-blue:   #D6EFFF;
-    --raisin-black:    #2B272F;
-    --dodger-blue:     #1E90FF;
-    --tang-blue:       #0052D4;
-    --sea-green:       #2E8B57;
-    --icterine:        #FFFF58;
-    --xanthous:        #EFBA47;
-    --emerald:         #50C878;
-    --purple:          #6A0D85;
+    --raisin-black-transparent-90: rgba(43, 39, 47,  0.90);
+    --raisin-black-transparent-75: rgba(43, 39, 47,  0.75);
+    --raisin-black-transparent-50: rgba(43, 39, 47,  0.50);
+    --purple-transparent-75:       rgba(106, 13, 133, 0.75);
+    --fire-engine-red:             #D0292A;
+    --columbia-blue:               #D6EFFF;
+    --raisin-black:                #2B272F;
+    --dodger-blue:                 #1E90FF;
+    --tang-blue:                   #0052D4;
+    --sea-green:                   #2E8B57;
+    --icterine:                    #FFFF58;
+    --xanthous:                    #EFBA47;
+    --emerald:                     #50C878;
+    --purple:                      #6A0D85;
 }
 
 @font-face {
@@ -50,8 +52,8 @@
     src: url(../assets/fonts/Cinzel-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: "diplomaticasc-regular";
-    src: url(../assets/fonts/DiplomataSc-Regular.ttf);
+    font-family: "diplomatasc-regular";
+    src: url(../assets/fonts/DiplomataSC-Regular.ttf);
 }
 @font-face {
     font-family: "homemadeapple-regular";
@@ -68,4 +70,8 @@
 @font-face {
     font-family: "lovelight-regular";
     src: url(../assets/fonts/LoveLight-Regular.ttf);
+}
+@font-face {
+    font-family: "medievalsharp-regular";
+    src: url(../assets/fonts/MedievalSharp-Regular.ttf);
 }
