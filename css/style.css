@@ -42,6 +42,18 @@ body {
     color: var(--columbia-blue);
 }
 
+.main__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vw;
+    width: 100%;
+}
+.main__logo img {
+    width: 70vw;
+    height: auto;
+}
+
 .main {
     display: flex;
     flex-direction: column;
