@@ -32,13 +32,12 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 5.7vw;
-    background-color: transparent;
+    gap: 2vw;
 }
 .header nav ul li a {
     text-decoration: none;
     font-family: "cinzel-regular";
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     color: var(--columbia-blue);
 }
 
@@ -54,14 +53,13 @@ body {
     height: auto;
 }
 
-.main {
+.main__sitio-oficial {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--lorem-white);
     margin: 5.7vw;
 }
-.main h1 {
+.main__sitio-oficial h1 {
     margin: 2vw 0 1vw 0;
     font-size: 3.27vw;
     font-family: "diplomatasc-regular";
@@ -69,7 +67,7 @@ body {
     color: var(--fire-engine-red);
     text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black-transparent-90);
 }
-.main p {
+.main__sitio-oficial p {
     font-size: 1.32vw;
     padding: 3vw 5vw;
     color: var(--xanthous);
@@ -79,7 +77,7 @@ body {
     font-family: "cinzel-regular";
 }
 
-.button {  
+.button__sitio-oficial {  
     position: relative;  
     margin-top: 20px;  
     width: 100%;  
@@ -92,14 +90,13 @@ body {
     justify-content: center;  
     align-items: center;  
 }  
-.button img {  
+.button__sitio-oficial img {  
     width: 100%;  
     height: auto;
     object-fit: contain;
-    border-radius: 5px;
     display: block;
 }
-.button__span {
+.button__sitio-oficial span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -113,6 +110,42 @@ body {
     white-space: nowrap;
 }
 
+.main__sobre-el-proyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5.7vw;
+}
+.main__sobre-el-proyecto h1 {
+    margin: 2vw 0 1vw 0;
+    font-size: 3.27vw;
+    font-family: "diplomatasc-regular";
+    text-align: start;
+    color: var(--tang-blue);
+    text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black-transparent-90);
+}
+.main__sobre-el-proyecto p {
+    font-size: 1.32vw;
+    padding: 3vw 5vw;
+    color: var(--dodger-blue);
+    text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
+    background-color: var(--columbia-blue-transparent-75);
+    text-align: start;
+    font-family: "cinzel-regular";
+}
+.main__sobre-el-proyecto img {  
+    position: relative;  
+    margin-top: 0.2vw;  
+    width: 100%;  
+    max-width: 7vw;
+    background-color: transparent;  
+    border: none;  
+    padding: 0;  
+    cursor: pointer;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
 .footer {
     position: fixed;
     bottom: 0;
