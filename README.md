@@ -126,25 +126,34 @@ En esta app puedes:
 │ ├── 📁 fonts/                                    # Fuentes para el texto.
 │ ├── 📁 icons/                                    # Íconos (vectores).
 │ └── 📁 img/                                      # Imágenes.
-│ ├── 📁 css/                                      # Archivos de CSS.
-│ │ ├── 📁 stylesheets/                            # Hojas de estilo para las subpáginas.
-│ │ │ ├── 📝 characterBuilder.css                  # Estilo para la página de construcción de personajes.
-│ │ │ ├── 📝 characterDetail.css                   # Estilo para la página de detalles individuales.
-│ │ │ └── 📝 characterList.css                     # Estilo para la página de lista de personajes.
-│ │ ├── 📝 style.css                               # Estilo de la página principal.
-│ │ └── 📝 variables.css                           # Variables para las hojas de estilo.
+│ │ ├── 📁 backgrounds/                            # Fondos de pantalla.
+│ │ │ └── 📁 main/                                 # Fondos del index.
+│ │ └── 📁 logos/                                  # Logos del proyecto.
+│ │ │ └── 📁 textLogo/                             # Variaciones del logo de texto.
+├── 📁 css/                                        # Archivos de CSS.
+│ ├── 📁 stylesheets/                              # Hojas de estilo para las subpáginas.
+│ │ ├── 📝 characterBuilder.css                    # Estilo para la página de construcción de personajes.
+│ │ ├── 📝 characterDetails.css                    # Estilo para la página de detalles individuales.
+│ │ ├── 📝 characterList.css                       # Estilo para la página de lista de personajes.
+│ │ └── 📝 profile.css                             # Estilo para la página del perfil.
+│ ├── 📝 style.css                                 # Estilo de la página principal.
+│ └── 📝 variables.css                             # Variables para las hojas de estilo.
 ├── 📁 data/                                       # Archivos JSON.
 ├── 📁 js/                                         # Archivos de JS.
 │ ├── 📁 scripts/                                  # Scripts para las subpáginas.
 │ │ ├── 📝 characterBuilder.js                     # Script para la página de construcción de personajes.
 │ │ ├── 📝 characterDetail.js                      # Script para la página de detalles individuales.
-│ │ └── 📝 characterList.js                        # Script para la página de lista de personajes.
+│ │ ├── 📝 characterList.js                        # Script para la página de lista de personajes.
+│ │ └── 📝 profile.js                              # Script para la página del perfil.
+│ ├── 📝 api.js                                    # Script para los consumos de las API.
 │ ├── 📝 main.js                                   # Script de la página principal.
+│ ├── 📝 storage.js                                # Script para la persistencia de datos y localStorage.
 │ └── 📝 util.js                                   # Variables para las hojas de estilo.
 ├── 📁 views/                                      # Archivos HTML para las subpáginas.
-│ ├── 📝 characterBuilder.html                     # Página de Construccion de Personajes.
-│ ├── 📝 characterDetail.html                      # Página de detalles del personaje
-│ └── 📝 characterList.html                        # Página de lista de personajes
+│ ├── 📝 characterBuilder.html                     # Página de construccion de Personajes.
+│ ├── 📝 characterDetail.html                      # Página de detalles del personaje.
+│ └── 📝 characterList.html                        # Página de lista de personajes.
+│ └── 📝 profile.html                              # Página del perfil.
 ├── 📝 index.html                                  # Página principal del sitio (Landing Page).
 ├── 📝 LICENSE.md                                  # Licencia del proyecto.
 └── 📝 README.md                                   # Documentación del proyecto.
