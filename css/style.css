@@ -8,7 +8,7 @@
 
 body {
     position: relative;
-    background: url(../assets/img/dungeonsAndDragonsBackground.jpeg) no-repeat center top / cover fixed;
+    background: url(../assets/img/backgrounds/mainBackground.png) no-repeat center top / cover fixed;
 }
 
 .header {  
