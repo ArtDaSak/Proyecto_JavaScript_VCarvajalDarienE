@@ -130,7 +130,7 @@ body {
     color: var(--columbia-blue);
     text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
     background-color: var(--raisin-black-transparent-90);
-    text-align: start;
+    text-align: center;
     font-family: "cinzel-regular";
 }
 .main__about-proyect img {  
@@ -146,6 +146,13 @@ body {
     justify-content: center;  
     align-items: center;  
 }
+
+.span__center-quote {
+    display: inline-block;
+    text-align: center;
+    font-family: "cinzel-bold";
+}
+
 .footer {
     position: fixed;
     bottom: 0;
