@@ -7,6 +7,6 @@ window.addEventListener('scroll', function () {
         logo.src = './assets/img/logos/textLogo/textLogoColumbiaBlue.png';
     } else {
         header.style.background = 'rgba(43, 39, 47, 0.50)';
-        logo.src = './assets/img/logos/textLogo/textLogoFireEngineRed.png';
+        logo.src = './assets/img/logos/textLogo/textLogoTangBlue.png';
     }
 });

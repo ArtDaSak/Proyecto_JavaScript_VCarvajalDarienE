@@ -8,7 +8,7 @@
 
 body {
     position: relative;
-    background: url(../assets/img/backgrounds/mainBackground.png) no-repeat center top / cover fixed;
+    background: url(../assets/img/backgrounds/main/2560x1600-terrain-wa.jpg) no-repeat center top / cover fixed;
 }
 
 .header {  
@@ -45,7 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7vw;
+    margin-top: 12vw;
     width: 100%;
 }
 .main__logo img {
@@ -53,31 +53,31 @@ body {
     height: auto;
 }
 
-.main__sitio-oficial {
+.main__official-website {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5.7vw;
 }
-.main__sitio-oficial h1 {
+.main__official-website h1 {
     margin: 2vw 0 1vw 0;
     font-size: 3.27vw;
     font-family: "diplomatasc-regular";
     text-align: start;
-    color: var(--fire-engine-red);
+    color: var(--tang-blue);
     text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black-transparent-90);
 }
-.main__sitio-oficial p {
+.main__official-website p {
     font-size: 1.32vw;
     padding: 3vw 5vw;
-    color: var(--xanthous);
+    color: var(--columbia-blue);
     text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
-    background-color: var(--purple-transparent-75);
+    background-color: var(--raisin-black-transparent-90);
     text-align: start;
     font-family: "cinzel-regular";
 }
 
-.button__sitio-oficial {  
+.button__official-website {  
     position: relative;  
     margin-top: 20px;  
     width: 100%;  
@@ -90,18 +90,18 @@ body {
     justify-content: center;  
     align-items: center;  
 }  
-.button__sitio-oficial img {  
+.button__official-website img {  
     width: 100%;  
     height: auto;
     object-fit: contain;
     display: block;
 }
-.button__sitio-oficial span {
+.button__official-website span {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-52.1%, -70%);
-    color: var(--xanthous);
+    color: var(--columbia-blue);
     font-family: "cinzel-regular";
     font-size: 2.1vw;
     text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
@@ -110,13 +110,13 @@ body {
     white-space: nowrap;
 }
 
-.main__sobre-el-proyecto {
+.main__about-proyect {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5.7vw;
 }
-.main__sobre-el-proyecto h1 {
+.main__about-proyect h1 {
     margin: 2vw 0 1vw 0;
     font-size: 3.27vw;
     font-family: "diplomatasc-regular";
@@ -124,16 +124,16 @@ body {
     color: var(--tang-blue);
     text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black-transparent-90);
 }
-.main__sobre-el-proyecto p {
+.main__about-proyect p {
     font-size: 1.32vw;
     padding: 3vw 5vw;
-    color: var(--dodger-blue);
+    color: var(--columbia-blue);
     text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
-    background-color: var(--columbia-blue-transparent-75);
+    background-color: var(--raisin-black-transparent-90);
     text-align: start;
     font-family: "cinzel-regular";
 }
-.main__sobre-el-proyecto img {  
+.main__about-proyect img {  
     position: relative;  
     margin-top: 0.2vw;  
     width: 100%;  
@@ -150,7 +150,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: var(--purple);
+    background-color: var(--raisin-black);
     color: var(--columbia-blue);
     font-family: "medievalsharp-regular";
     font-size: 0.9vw;
