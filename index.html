@@ -15,13 +15,13 @@
 
 <body>
     <header class="header">
-        <img src="./assets/img/logos/textLogo/textLogoTangBlue.png" alt="Dungeons & Designers Logo">
+        <a href="#home"><img src="./assets/img/logos/textLogo/textLogoTangBlue.png" alt="Dungeons & Designers Logo"></a>
         <nav>
             <ul>
                 <li><a href="#official-website">Sitio Oficial</a></li>
                 <li><a href="#about-proyect">Sobre el Proyecto</a></li>
                 <li><a href="#build-characters" alt="Página de Construcción">Construye</a></li>
-                <li><a href="./views/characterList.html">Tus Personajes</a></li>
+                <li><a href="#character-list">Tus Personajes</a></li>
                 <li><a href="https://www.youtube.com/results?search_query=Creaci%C3%B3n+de+personaje+D%26D+5e" target="_blank" rel="noopener noreferrer">Consejos</a></li>
                 <li><a href="https://github.com/ArtDaSak/Proyecto_JavaScript_VCarvajalDarienE.git" target="_blank" rel="noopener noreferrer">Desarrollo</a></li>
                 <li><a href="./views/profile.html" alt="Página de Creación del Perfil">Perfil</a></li>
@@ -29,13 +29,14 @@
         </nav>
     </header>
 
+    <span class="span__anchor-tag" id="home"></span>
     <span class="main__logo">
         <img src="./assets/img/logos/textLogo/textLogoBlueDragon.png" alt="Dungeons & Designers Logo">
     </span>
 
-    <span id="official-website"></span>
+    <span class="span__anchor-tag" id="official-website"></span>
     <div class="div__default">
-        <h1>
+        <h1 class="h1__dungeons-and-dragons">
             El universo de<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dungeons & Dragons
         </h1>
@@ -53,9 +54,9 @@
         </button>
     </div>
 
-    <span id="about-proyect"></span>
-    <div class="div__about-proyect">
-        <h1>
+    <span class="span__anchor-tag" id="about-proyect"></span>
+    <div class="div__default">
+        <h1 class="h1__about-proyect">
             ¿Qué es<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dungeons & Designers?
         </h1>
@@ -65,16 +66,14 @@
             Esta no es solo una página: es una experiencia interactiva que une la narrativa de rol con la estética del diseño gráfico y digital.<br>
             Perfecto para aventurerxs con alma de diseñadores. ⚔️💻</span>
         </p>
-        <img src="./assets/img/logos/andSilverDragon.png" alt="Letra & de Dungeons & Designers"/>
+        <img class="img__silver-dragon" src="./assets/img/logos/andSilverDragon.png" alt="Letra & de Dungeons & Designers"/>
     </div>
 
-
-
-    <span id="build-characters"></span>
+    <span class="span__anchor-tag" id="build-characters"></span>
     <div class="div__default">
-        <h1>
+        <h1 class="h1__build-characters">
             Portal al mundo creativo:<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creación de Personajes
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creación de Personajes
         </h1>
         <p>
             <span class="span__center-quote">«Cada héroe o heroína nace de un susurro de inspiración y una chispa de destino».</span><br>
@@ -91,11 +90,11 @@
         </button>
     </div>
 
-    <span id="build-characters"></span>
+    <span class="span__anchor-tag" id="character-list"></span>
     <div class="div__default">
-        <h1>
-            La Taverna de los Personajes:<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listado de Aventurerxs
+        <h1 class="h1__character-list">
+            La Taverna de Personajes:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listado de Aventurerxs
         </h1>
         <p>
             <span class="span__center-quote">«En las sombras de las leyendas, siempre hay un nombre que resuena con fuerza».</span><br>
@@ -107,7 +106,7 @@
                 </span>
         </p>
 
-        <button class="button__default" aria-label="Sitio Oficial" onclick="window.location.href='./views/characterBuilder.html'">
+        <button class="button__default" aria-label="Sitio Oficial" onclick="window.location.href='./views/characterList.html'">
             <img src="./assets/icons/buttomBlackAndBlue.svg" alt="Imagen del Botón a la Página de Construcción de Personajes" class="start-button"/>
             <span>Construye</span>
         </button>
@@ -115,7 +114,7 @@
 
 
     <footer class="footer">
-        <p>Diseñado, Programado, Planificado y Desarrollado por ArtDaSak - Recursos e inspiración: © 1993-2025 Wizards of the Coast LLC, una filial de Hasbro, Inc. Todos los derechos reservados.</p>
+        <p>Diseño y Desarrollo: ArtDaSak | Recursos e inspiración: © 1993-2025 Wizards of the Coast LLC, una filial de Hasbro, Inc. | Todos los derechos reservados.</p>
     </footer>
 </body>
 

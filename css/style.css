@@ -11,7 +11,7 @@ body {
     background: url(../assets/img/backgrounds/main/2560x1600-terrain-wa.jpg) no-repeat center top / cover fixed;
 }
 
-.header {  
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,9 +24,10 @@ body {
     transition: background-color 0.27s ease, backdrop-filter 0.27s ease;
     backdrop-filter: blur(0.27vw);
     box-shadow: 0 0.5vw 1vw var(--raisin-black-transparent-90);
-}  
+}
 .header img {
     width: 12vw;
+    height: auto;
 }
 .header nav ul {
     display: flex;
@@ -53,6 +54,11 @@ body {
     height: auto;
 }
 
+.span__anchor-tag {
+    display: flex;
+    padding: 1vw;
+}
+
 .div__default {
     display: flex;
     flex-direction: column;
@@ -60,8 +66,7 @@ body {
     margin: 5.7vw;
 }
 .div__default h1 {
-    margin: 2vw 0 1vw 0;
-    font-size: 2.75vw;
+    margin: 1.7vw 0 1vw 0;
     font-family: "diplomatasc-regular";
     text-align: start;
     color: var(--tang-blue);
@@ -77,21 +82,21 @@ body {
     font-family: "cinzel-regular";
 }
 
-.button__default {  
-    position: relative;  
-    margin-top: 20px;  
-    width: 100%;  
-    max-width: 20vw;  
-    background-color: transparent;  
-    border: none;  
-    padding: 0;  
-    cursor: pointer;  
-    display: flex;  
-    justify-content: center;  
-    align-items: center;  
-}  
-.button__default img {  
-    width: 100%;  
+.button__default {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 20vw;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button__default img {
+    width: 100%;
     height: auto;
     object-fit: contain;
     display: block;
@@ -110,61 +115,39 @@ body {
     white-space: nowrap;
 }
 
-.div__about-proyect {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5.7vw;
-}
-.div__about-proyect h1 {
-    margin: 2vw 0 1vw 0;
-    font-size: 3.27vw;
-    font-family: "diplomatasc-regular";
-    text-align: start;
-    color: var(--tang-blue);
-    text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black-transparent-90);
-}
-.div__about-proyect p {
-    font-size: 1.32vw;
-    padding: 3vw 5vw;
-    color: var(--columbia-blue);
-    text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
-    background-color: var(--raisin-black-transparent-90);
-    text-align: center;
-    font-family: "cinzel-regular";
-}
-.div__about-proyect img {  
-    position: relative;  
-    margin-top: 0.2vw;  
-    width: 100%;  
-    max-width: 7vw;
-    background-color: transparent;  
-    border: none;  
-    padding: 0;  
-    cursor: pointer;  
-    display: flex;  
-    justify-content: center;  
-    align-items: center;  
-}
-
-.div__build-characters p {
-    font-size: 1.32vw;
-    padding: 3vw 5vw;
-    color: var(--columbia-blue);
-    text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black);
-    background-color: var(--raisin-black-transparent-90);
-    text-align: start;
-    font-family: "cinzel-regular";
-}
-
 .span__center-quote {
     display: inline-block;
     text-align: center;
     font-family: "cinzel-bold";
 }
+
 .span__start-quote {
     display: inline-block;
     text-align: start;
+}
+
+.h1__dungeons-and-dragons {
+    font-size: 3.5vw;
+}
+.h1__about-proyect {
+    font-size: 3.2vw;
+}
+.h1__build-characters {
+    font-size: 3vw;
+}
+.h1__character-list {
+    font-size: 3vw;
+}
+
+.img__silver-dragon {  
+    position: relative;
+    margin-top: 0.7vw;
+    width: 100%;
+    max-width: 10vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
