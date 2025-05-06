@@ -33,13 +33,16 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 2vw;
+    gap: 2.7vw;
 }
 .header nav ul li a {
     text-decoration: none;
     font-family: "cinzel-regular";
     font-size: 1.5vw;
     color: var(--columbia-blue);
+}
+.header__profile {
+    max-width: 2.5vw;
 }
 
 .main__logo {
@@ -133,21 +136,16 @@ body {
     font-size: 3.2vw;
 }
 .h1__build-characters {
-    font-size: 3vw;
+    font-size: 2.7vw;
 }
 .h1__character-list {
     font-size: 3vw;
 }
-
-.img__silver-dragon {  
-    position: relative;
-    margin-top: 0.7vw;
-    width: 100%;
-    max-width: 10vw;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.h1__tips {
+    font-size: 2.9vw;
+}
+.h1__comunity {
+    font-size: 3.2vw;
 }
 
 .footer {
