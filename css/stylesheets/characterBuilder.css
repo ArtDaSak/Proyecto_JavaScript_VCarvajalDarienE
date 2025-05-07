@@ -1,7 +1,78 @@
-@import url(./variables.css);
+@import url(../variables.css);
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: url(../../assets/img/backgrounds/2560x1600-starter.jpg) no-repeat center top / cover fixed;
+    background-color: var(--raisin-black);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 3.4vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--raisin-black-transparent-50);
+    transition: background-color 0.27s ease, backdrop-filter 0.27s ease;
+    backdrop-filter: blur(0.27vw);
+    box-shadow: 0 0.5vw 1vw var(--raisin-black-transparent-90);
+}
+.header img {
+    width: 12vw;
+    height: auto;
+}
+.header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2.7vw;
+}
+.header nav ul li a {
+    text-decoration: none;
+    font-family: "cinzel-regular";
+    font-size: 1.5vw;
+    color: var(--columbia-blue);
+}
+.header__profile img{
+    max-width: 2.5vw;
+}
+.header:hover {
+    filter: brightness(1.2);
+}
+.header img:hover {
+    content: url(../../assets/img/logos/textLogo/textLogoTangBlue.png);
+    filter: drop-shadow(0.02vw 0.027vw 0.42vw var(--columbia-blue-transparent-75));
+}
+.header nav ul li a:hover {
+    color: var(--tang-blue);
+    text-shadow: 0.02vw 0.027vw 0.5vw var(--columbia-blue-transparent-75);
+}
+.header__profile img:hover {
+    content: url(../../assets/icons/dragonTangBlue.svg);
+    filter: drop-shadow(0.02vw 0.027vw 0.27vw var(--columbia-blue-transparent-75));
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--raisin-black);
+    color: var(--columbia-blue);
+    font-family: "medievalsharp-regular";
+    font-size: 0.9vw;
+    text-align: center;
+    padding: 0.2vw;
+    z-index: 10;
+}
+footer a {
+    color: var(--tang-blue);
+    text-decoration: none;
 }
