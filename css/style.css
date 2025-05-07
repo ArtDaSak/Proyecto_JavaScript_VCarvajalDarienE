@@ -137,9 +137,16 @@ body {
     z-index: 1;
     white-space: nowrap;
 }
+.button__default:hover {
+    filter: drop-shadow(0.02vw 0.027vw 0.7vw var(--tang-blue-transparent-50));
+}
+.button__default:hover img {
+    content: url(../assets/icons/buttomWhiteAndBlue.svg);
+}
 .button__default:hover span {
     color: var(--tang-blue);
     text-shadow: 0.2vw 0.27vw 0.5vw var(--columbia-blue-transparent-75);
+    filter: brightness(1.2);
 }
 
 .span__center-quote {
