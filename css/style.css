@@ -70,8 +70,9 @@ body {
 }
 .div__default h1 {
     margin: 1.7vw 0 1vw 0;
-    font-family: "diplomatasc-regular";
-    text-align: start;
+    font-family: "medievalsharp-regular";
+    font-size: auto;
+    text-align: center;
     color: var(--tang-blue);
     text-shadow: 0.2vw 0.27vw 0.5vw var(--raisin-black-transparent-90);
 }
@@ -130,22 +131,22 @@ body {
 }
 
 .h1__dungeons-and-dragons {
-    font-size: 3.5vw;
+    font-size: 5vw;
 }
 .h1__about-proyect {
-    font-size: 3.2vw;
+    font-size: 5.2vw;
 }
 .h1__build-characters {
-    font-size: 2.7vw;
+    font-size: 3.9vw;
 }
 .h1__character-list {
-    font-size: 3vw;
+    font-size: 3.9vw;
 }
 .h1__tips {
-    font-size: 2.9vw;
+    font-size: 3.7vw;
 }
 .h1__comunity {
-    font-size: 3.2vw;
+    font-size: 5.2vw;
 }
 
 .footer {
