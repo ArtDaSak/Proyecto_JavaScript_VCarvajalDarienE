@@ -1,0 +1,214 @@
+[   
+    {
+        "url": "https://www.dnd5eapi.co/api/2014/",
+        "Contenido": 
+            {   
+                "equipment-categories":
+                    {
+                        "url": "/api/2014/equipment-categories",
+                        "contenido": 
+                            {
+                                "count": 39,
+                                "results": [
+                                {
+                                    "index": "adventuring-gear",
+                                    "name": "Adventuring Gear",
+                                    "url": "/api/2014/equipment-categories/adventuring-gear"
+                                },
+                                {
+                                    "index": "ammunition",
+                                    "name": "Ammunition",
+                                    "url": "/api/2014/equipment-categories/ammunition"
+                                },
+                                {
+                                    "index": "arcane-foci",
+                                    "name": "Arcane Foci",
+                                    "url": "/api/2014/equipment-categories/arcane-foci"
+                                },
+                                {
+                                    "index": "armor",
+                                    "name": "Armor",
+                                    "url": "/api/2014/equipment-categories/armor"
+                                },
+                                {
+                                    "index": "artisans-tools",
+                                    "name": "Artisan's Tools",
+                                    "url": "/api/2014/equipment-categories/artisans-tools"
+                                },
+                                {
+                                    "index": "druidic-foci",
+                                    "name": "Druidic Foci",
+                                    "url": "/api/2014/equipment-categories/druidic-foci"
+                                },
+                                {
+                                    "index": "equipment-packs",
+                                    "name": "Equipment Packs",
+                                    "url": "/api/2014/equipment-categories/equipment-packs"
+                                },
+                                {
+                                    "index": "gaming-sets",
+                                    "name": "Gaming Sets",
+                                    "url": "/api/2014/equipment-categories/gaming-sets"
+                                },
+                                {
+                                    "index": "heavy-armor",
+                                    "name": "Heavy Armor",
+                                    "url": "/api/2014/equipment-categories/heavy-armor"
+                                },
+                                {
+                                    "index": "holy-symbols",
+                                    "name": "Holy Symbols",
+                                    "url": "/api/2014/equipment-categories/holy-symbols"
+                                },
+                                {
+                                    "index": "kits",
+                                    "name": "Kits",
+                                    "url": "/api/2014/equipment-categories/kits"
+                                },
+                                {
+                                    "index": "land-vehicles",
+                                    "name": "Land Vehicles",
+                                    "url": "/api/2014/equipment-categories/land-vehicles"
+                                },
+                                {
+                                    "index": "light-armor",
+                                    "name": "Light Armor",
+                                    "url": "/api/2014/equipment-categories/light-armor"
+                                },
+                                {
+                                    "index": "martial-melee-weapons",
+                                    "name": "Martial Melee Weapons",
+                                    "url": "/api/2014/equipment-categories/martial-melee-weapons"
+                                },
+                                {
+                                    "index": "martial-ranged-weapons",
+                                    "name": "Martial Ranged Weapons",
+                                    "url": "/api/2014/equipment-categories/martial-ranged-weapons"
+                                },
+                                {
+                                    "index": "martial-weapons",
+                                    "name": "Martial Weapons",
+                                    "url": "/api/2014/equipment-categories/martial-weapons"
+                                },
+                                {
+                                    "index": "medium-armor",
+                                    "name": "Medium Armor",
+                                    "url": "/api/2014/equipment-categories/medium-armor"
+                                },
+                                {
+                                    "index": "melee-weapons",
+                                    "name": "Melee Weapons",
+                                    "url": "/api/2014/equipment-categories/melee-weapons"
+                                },
+                                {
+                                    "index": "mounts-and-other-animals",
+                                    "name": "Mounts and Other Animals",
+                                    "url": "/api/2014/equipment-categories/mounts-and-other-animals"
+                                },
+                                {
+                                    "index": "mounts-and-vehicles",
+                                    "name": "Mounts and Vehicles",
+                                    "url": "/api/2014/equipment-categories/mounts-and-vehicles"
+                                },
+                                {
+                                    "index": "musical-instruments",
+                                    "name": "Musical Instruments",
+                                    "url": "/api/2014/equipment-categories/musical-instruments"
+                                },
+                                {
+                                    "index": "other-tools",
+                                    "name": "Other Tools",
+                                    "url": "/api/2014/equipment-categories/other-tools"
+                                },
+                                {
+                                    "index": "potion",
+                                    "name": "Potion",
+                                    "url": "/api/2014/equipment-categories/potion"
+                                },
+                                {
+                                    "index": "ranged-weapons",
+                                    "name": "Ranged Weapons",
+                                    "url": "/api/2014/equipment-categories/ranged-weapons"
+                                },
+                                {
+                                    "index": "ring",
+                                    "name": "Ring",
+                                    "url": "/api/2014/equipment-categories/ring"
+                                },
+                                {
+                                    "index": "rod",
+                                    "name": "Rod",
+                                    "url": "/api/2014/equipment-categories/rod"
+                                },
+                                {
+                                    "index": "scroll",
+                                    "name": "Scroll",
+                                    "url": "/api/2014/equipment-categories/scroll"
+                                },
+                                {
+                                    "index": "shields",
+                                    "name": "Shields",
+                                    "url": "/api/2014/equipment-categories/shields"
+                                },
+                                {
+                                    "index": "simple-melee-weapons",
+                                    "name": "Simple Melee Weapons",
+                                    "url": "/api/2014/equipment-categories/simple-melee-weapons"
+                                },
+                                {
+                                    "index": "simple-ranged-weapons",
+                                    "name": "Simple Ranged Weapons",
+                                    "url": "/api/2014/equipment-categories/simple-ranged-weapons"
+                                },
+                                {
+                                    "index": "simple-weapons",
+                                    "name": "Simple Weapons",
+                                    "url": "/api/2014/equipment-categories/simple-weapons"
+                                },
+                                {
+                                    "index": "staff",
+                                    "name": "Staff",
+                                    "url": "/api/2014/equipment-categories/staff"
+                                },
+                                {
+                                    "index": "standard-gear",
+                                    "name": "Standard Gear",
+                                    "url": "/api/2014/equipment-categories/standard-gear"
+                                },
+                                {
+                                    "index": "tack-harness-and-drawn-vehicles",
+                                    "name": "Tack, Harness, and Drawn Vehicles",
+                                    "url": "/api/2014/equipment-categories/tack-harness-and-drawn-vehicles"
+                                },
+                                {
+                                    "index": "tools",
+                                    "name": "Tools",
+                                    "url": "/api/2014/equipment-categories/tools"
+                                },
+                                {
+                                    "index": "wand",
+                                    "name": "Wand",
+                                    "url": "/api/2014/equipment-categories/wand"
+                                },
+                                {
+                                    "index": "waterborne-vehicles",
+                                    "name": "Waterborne Vehicles",
+                                    "url": "/api/2014/equipment-categories/waterborne-vehicles"
+                                },
+                                {
+                                    "index": "weapon",
+                                    "name": "Weapon",
+                                    "url": "/api/2014/equipment-categories/weapon"
+                                },
+                                {
+                                    "index": "wondrous-items",
+                                    "name": "Wondrous Items",
+                                    "url": "/api/2014/equipment-categories/wondrous-items"
+                                }
+                                ]
+                            }
+                    }
+            }
+    }
+]
+

@@ -1,0 +1,109 @@
+[   
+    {
+        "url": "https://www.dnd5eapi.co/api/2014/",
+        "Contenido": 
+            {   
+                "skills":
+                    {
+                        "url": "/api/2014/skills",
+                        "contenido": 
+                            {
+                                "count": 18,
+                                "results": [
+                                {
+                                    "index": "acrobatics",
+                                    "name": "Acrobatics",
+                                    "url": "/api/2014/skills/acrobatics"
+                                },
+                                {
+                                    "index": "animal-handling",
+                                    "name": "Animal Handling",
+                                    "url": "/api/2014/skills/animal-handling"
+                                },
+                                {
+                                    "index": "arcana",
+                                    "name": "Arcana",
+                                    "url": "/api/2014/skills/arcana"
+                                },
+                                {
+                                    "index": "athletics",
+                                    "name": "Athletics",
+                                    "url": "/api/2014/skills/athletics"
+                                },
+                                {
+                                    "index": "deception",
+                                    "name": "Deception",
+                                    "url": "/api/2014/skills/deception"
+                                },
+                                {
+                                    "index": "history",
+                                    "name": "History",
+                                    "url": "/api/2014/skills/history"
+                                },
+                                {
+                                    "index": "insight",
+                                    "name": "Insight",
+                                    "url": "/api/2014/skills/insight"
+                                },
+                                {
+                                    "index": "intimidation",
+                                    "name": "Intimidation",
+                                    "url": "/api/2014/skills/intimidation"
+                                },
+                                {
+                                    "index": "investigation",
+                                    "name": "Investigation",
+                                    "url": "/api/2014/skills/investigation"
+                                },
+                                {
+                                    "index": "medicine",
+                                    "name": "Medicine",
+                                    "url": "/api/2014/skills/medicine"
+                                },
+                                {
+                                    "index": "nature",
+                                    "name": "Nature",
+                                    "url": "/api/2014/skills/nature"
+                                },
+                                {
+                                    "index": "perception",
+                                    "name": "Perception",
+                                    "url": "/api/2014/skills/perception"
+                                },
+                                {
+                                    "index": "performance",
+                                    "name": "Performance",
+                                    "url": "/api/2014/skills/performance"
+                                },
+                                {
+                                    "index": "persuasion",
+                                    "name": "Persuasion",
+                                    "url": "/api/2014/skills/persuasion"
+                                },
+                                {
+                                    "index": "religion",
+                                    "name": "Religion",
+                                    "url": "/api/2014/skills/religion"
+                                },
+                                {
+                                    "index": "sleight-of-hand",
+                                    "name": "Sleight of Hand",
+                                    "url": "/api/2014/skills/sleight-of-hand"
+                                },
+                                {
+                                    "index": "stealth",
+                                    "name": "Stealth",
+                                    "url": "/api/2014/skills/stealth"
+                                },
+                                {
+                                    "index": "survival",
+                                    "name": "Survival",
+                                    "url": "/api/2014/skills/survival"
+                                }
+                                ]
+                            }
+                    }
+            }
+    }
+]
+
