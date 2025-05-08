@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Community Forum</title>
+    <link rel="stylesheet" href="../css/stylesheets/community.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Community Forum</h1>
+            <p>¡Comparte tus ideas y conecta con la comunidad!</p>
+        </header>
+
+        <main>
+            <section class="new-post">
+                <h2>Nuevo mensaje</h2>
+                <form id="post-form">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" maxlength="50" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" maxlength="500" required></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn">Publicar</button>
+                </form>
+            </section>
+
+            <section class="posts">
+                <h2>Mensajes</h2>
+                <div class="loading" id="loading">Cargando mensajes...</div>
+                <div id="error-message" class="error-message"></div>
+                <div id="posts-container"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Community Forum. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="../js/scripts/community.js"></script>
+</body>
+
+</html>
