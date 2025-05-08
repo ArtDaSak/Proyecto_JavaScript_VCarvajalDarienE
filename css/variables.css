@@ -1,21 +1,22 @@
 :root{
-    --columbia-blue-transparent-75:rgba(214, 239, 255, 0.75);
-    --purple-transparent-75:       rgba(106, 13, 133, 0.75);
-    --raisin-black-transparent-90: rgba(43, 39, 47,  0.90);
-    --raisin-black-transparent-75: rgba(43, 39, 47,  0.75);
-    --raisin-black-transparent-50: rgba(43, 39, 47,  0.50);
-    --dodger-blue-transparent-75:  rgba(0, 82, 212, 0.75);
-    --tang-blue-transparent-50:    rgba(0, 82, 212, 0.50);
-    --fire-engine-red:             #D0292A;
-    --columbia-blue:               #D6EFFF;
-    --raisin-black:                #2B272F;
-    --dodger-blue:                 #1E90FF;
-    --tang-blue:                   #0052D4;
-    --sea-green:                   #2E8B57;
-    --icterine:                    #FFFF58;
-    --xanthous:                    #EFBA47;
-    --emerald:                     #50C878;
-    --purple:                      #6A0D85;
+    --columbia-blue-transparent-75:  rgba(214, 239, 255, 0.75);
+    --purple-transparent-75:         rgba(106, 13, 133, 0.75);
+    --fire-engine-red-transparent-50:rgba(208, 41, 42, 0.50);
+    --raisin-black-transparent-90:   rgba(43, 39, 47,  0.90);
+    --raisin-black-transparent-75:   rgba(43, 39, 47,  0.75);
+    --raisin-black-transparent-50:   rgba(43, 39, 47,  0.50);
+    --dodger-blue-transparent-75:    rgba(0, 82, 212, 0.75);
+    --tang-blue-transparent-50:      rgba(0, 82, 212, 0.50);
+    --fire-engine-red:               #D0292A;
+    --columbia-blue:                 #D6EFFF;
+    --raisin-black:                  #2B272F;
+    --dodger-blue:                   #1E90FF;
+    --tang-blue:                     #0052D4;
+    --sea-green:                     #2E8B57;
+    --icterine:                      #FFFF58;
+    --xanthous:                      #EFBA47;
+    --emerald:                       #50C878;
+    --purple:                        #6A0D85;
 }
 
 @font-face {

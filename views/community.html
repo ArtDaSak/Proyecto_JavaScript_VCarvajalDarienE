@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Community Forum</title>
+    <link rel="icon" href="../assets/img/logos/andSilverDragon.png" type="image/png"/>
+
     <link rel="stylesheet" href="../css/stylesheets/community.css">
 </head>
 
 <body>
-
     <header class="header">
         <a href="../index.html"><img src="../assets/img/logos/textLogo/textLogoTangBlue.png" alt="Isologo de Dungeons and Designers con un color cambiante de Azul Marino a Blanco Azulado."></a>
         <nav>
@@ -22,8 +24,7 @@
     </header>
 
     <div class="container">
-
-        <main>
+        <main class="main-content">
             <section class="new-post">
                 <h2>Nuevo mensaje</h2>
                 <form id="post-form">
@@ -35,7 +36,10 @@
                         <label for="message">Mensaje:</label>
                         <textarea id="message" maxlength="500" required></textarea>
                     </div>
-                    <button type="submit" id="submit-btn">Publicar</button>
+                    <button class="button__default" aria-label="Publicar mensaje" type="submit" id="submit-btn">
+                        <img src="../assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón para publicar un mensaje representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada.">
+                        <span>Publicar</span>
+                    </button>
                 </form>
             </section>
 
@@ -48,10 +52,11 @@
         </main>
 
     </div>
-        <footer class="footer">
-            <p>Diseño y Desarrollo: <a href="https://github.com/ArtDaSak" target="_blank" aria-label="Ir al Perfil de GitHub de la Persona que desarrolló el proyecto.">ArtDaSak</a> | Recursos e inspiración: © 1993-2025 Wizards of the Coast LLC, una filial de Hasbro, Inc. | Todos los derechos reservados.</p>
-        </footer>
-    
+
+    <footer class="footer">
+        <p>Diseño y Desarrollo: <a href="https://github.com/ArtDaSak" target="_blank" aria-label="Ir al Perfil de GitHub de la Persona que desarrolló el proyecto.">ArtDaSak</a> | Recursos e inspiración: © 1993-2025 Wizards of the Coast LLC, una filial de Hasbro, Inc. | Todos los derechos reservados.</p>
+    </footer>
+
     <script src="../js/scripts/community.js"></script>
 </body>
 
