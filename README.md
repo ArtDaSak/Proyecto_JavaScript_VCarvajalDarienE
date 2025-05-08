@@ -118,7 +118,6 @@ En esta app puedes:
 </ul>
 
 ---
-
 ## 📂 Estructura:
 
 ```bash
@@ -135,6 +134,7 @@ En esta app puedes:
 │ │ ├── 📝 characterBuilder.css                    # Estilo para la página de construcción de personajes.
 │ │ ├── 📝 characterDetails.css                    # Estilo para la página de detalles individuales.
 │ │ ├── 📝 characterList.css                       # Estilo para la página de lista de personajes.
+│ │ ├── 📝 community.css                           # Estilo para la página del foro de la comunidad.
 │ │ └── 📝 profile.css                             # Estilo para la página del perfil.
 │ ├── 📝 style.css                                 # Estilo de la página principal.
 │ └── 📝 variables.css                             # Variables para las hojas de estilo.
@@ -144,15 +144,17 @@ En esta app puedes:
 │ │ ├── 📝 characterBuilder.js                     # Script para la página de construcción de personajes.
 │ │ ├── 📝 characterDetail.js                      # Script para la página de detalles individuales.
 │ │ ├── 📝 characterList.js                        # Script para la página de lista de personajes.
+│ │ ├── 📝 community.js                            # Script para la página del foro de la comunidad.
 │ │ └── 📝 profile.js                              # Script para la página del perfil.
 │ ├── 📝 api.js                                    # Script para los consumos de las API.
 │ ├── 📝 main.js                                   # Script de la página principal.
 │ ├── 📝 storage.js                                # Script para la persistencia de datos y localStorage.
-│ └── 📝 util.js                                   # Variables para las hojas de estilo.
+│ └── 📝 util.js                                   # Utilidades generales.
 ├── 📁 views/                                      # Archivos HTML para las subpáginas.
-│ ├── 📝 characterBuilder.html                     # Página de construccion de Personajes.
+│ ├── 📝 characterBuilder.html                     # Página de construcción de personajes.
 │ ├── 📝 characterDetail.html                      # Página de detalles del personaje.
-│ └── 📝 characterList.html                        # Página de lista de personajes.
+│ ├── 📝 characterList.html                        # Página de lista de personajes.
+│ ├── 📝 community.html                            # Página del foro de la comunidad.
 │ └── 📝 profile.html                              # Página del perfil.
 ├── 📝 index.html                                  # Página principal del sitio (Landing Page).
 ├── 📝 LICENSE.md                                  # Licencia del proyecto.
