@@ -6,14 +6,152 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>D&D</title>
-    <link rel="icon" href="./assets/img/favicon.png" type="image/png"/>
+    <title>Dungeons & Designers</title>
+    <link rel="icon" href="./assets/img/logos/andSilverDragon.png" type="image/png"/>
 
     <link rel="stylesheet" href="./css/style.css"/>
     <script src="./js/main.js"></script>
 </head>
 
 <body>
+    <header class="header">
+        <a href="#home"><img src="./assets/img/logos/textLogo/textLogoTangBlue.png" alt="Isologo de Dungeons and Designers con un color cambiante de Azul Marino a Blanco Azulado."></a>
+        <nav>
+            <ul>
+                <li><a href="#official-website" aria-label="Desplazar hasta la sección del Sitio Oficial">Sitio Oficial</a></li>
+                <li><a href="#about-proyect" aria-label="Desplazar hasta la sección Sobre el Proyecto">Sobre el Proyecto</a></li>
+                <li><a href="#build-characters" aria-label="Desplazar hasta la sección de la Construcción de Personajes">Construye</a></li>
+                <li><a href="#character-list" aria-label="Desplazar hasta la sección del Listado de Personajes">Personajes</a></li>
+                <li><a href="#tips" aria-label="Desplazar hasta la sección de Consejos">Consejos</a></li>
+                <li><a href="#comunity" aria-label="Desplazar hasta la sección Comunidad">Comunidad</a></li>
+                <li><a class="header__profile" href="./views/profile.html" aria-label="Ir a la Página de Inicio de Sesión o Creación de la Cuenta"><img src="./assets/icons/dragonColumbiaBlue.svg"></a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <span class="span__anchor-tag" id="home"></span>
+    <span class="main__logo">
+        <img src="./assets/img/logos/textLogo/textLogoBlueDragon.png" alt="El isologo principal de Dungeons and Designers presenta el nombre con las palabras «Dungeons» y «Designers» en letras formadas por escamas de un dragón azul. La letra ampersand (&) está diseñada con la forma de un dragón en un estilo esmaltado plateado.">
+    </span>
+
+    <span class="span__anchor-tag" id="official-website"></span>
+    <div class="div__default">
+        <h1 class="h1__dungeons-and-dragons">
+            El universo de Dungeons & Dragons
+        </h1>
+        <p>
+            <span class="span__center-quote">«Más allá del velo de la realidad yace un mundo donde el destino se escribe con dados y el coraje se mide en palabras».</span><br>
+            <span class="span__start-quote">En los vastos reinos de <cite>Dungeons & Dragons</cite>, las estrellas no solo iluminan el cielo, sino que susurran secretos a aquelles lo suficientemente valientes como para escucharlos.<br>
+            Es un universo donde las ciudades flotan sobre nubes encantadas, antiquísimas dragonas y dragones guardan tesoros en ruinas olvidadas, así como héroes, heroínas y demás personajes se forjan en la fragua de decisiones imposibles.<br>
+            Cada partida es una historia, cada historia un mundo, y cada mundo… una oportunidad para convertirse en leyenda. Aquí, no hay guion fijo: solo la imaginación, los dados y tu voluntad de explorar lo desconocido.<br>
+            Prepárate, aventurere. El llamado ha sido hecho, y el viaje apenas comienza…</span>
+        </p>
+
+        <button class="button__default" onclick="window.open('https://dnd.wizards.com/', '_blank');" aria-label="Ir al Sitio Oficial de Dungeons and Dragons">
+            <img src="./assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón al Sitio Oficial representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada."/>
+            <span>Sitio Oficial</span>
+        </button>
+    </div>
+
+    <span class="span__anchor-tag" id="about-proyect"></span>
+    <div class="div__default">
+        <h1 class="h1__about-proyect">
+            ¿Qué es Dungeons & Designers?
+        </h1>
+        <p>
+            <span class="span__center-quote">«Donde la fantasía y el diseño chocan para crear algo legendario».</span><br>
+            <span class="span__start-quote">Dungeons & Designers es una reinterpretación de los mundos de Dungeons & Dragons, pensada desde la creatividad visual y el desarrollo web.<br>
+            Esta no es solo una página: es una experiencia interactiva que une la narrativa de rol con la estética del diseño gráfico y digital.<br>
+            Perfecto para aventureres con alma de diseñadores.</span>
+        </p>
+        <button class="button__default" aria-label="Sitio Oficial" onclick="window.open('https://github.com/ArtDaSak/DungeonsAndDesigners', '_blank')">
+            <img src="./assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón al GitHub de Desarrollo representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada."/>
+            <span>Desarrollo</span>
+        </button>
+    </div>
+
+    <span class="span__anchor-tag" id="build-characters"></span>
+    <div class="div__default">
+        <h1 class="h1__build-characters">
+            Portal al mundo creativo: Creación de Personajes
+        </h1>
+        <p>
+            <span class="span__center-quote">«Cada héroe o heroína nace de un susurro de inspiración y una chispa de destino».</span><br>
+            <span class="span__start-quote">En este espacio, la creación de personajes deja de ser un simple formulario y se transforma en un verdadero acto de magia.<br>
+                A través de una conexión con los mundos de <cite>Dungeons & Dragons</cite>, podrás moldear aventureres únicos, descubriendo razas, clases y habilidades que definen su esencia.<br>
+                No solo estás generando atributos: estás esculpiendo almas, trazando el primer capítulo de futuras leyendas.<br>
+                Permítete sorprenderte, explora combinaciones inesperadas y forja a quien podría cambiar el rumbo de los universos.<br>
+                El portal creativo está abierto… <cite>¿quién serás hoy?</cite></span>
+        </p>
+
+        <button class="button__default" aria-label="Sitio Oficial" onclick="window.location.href='./views/characterBuilder.html'">
+            <img src="./assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón a la Página de Crear de Personajes representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada."/>
+            <span>Construye</span>
+        </button>
+    </div>
+
+    <span class="span__anchor-tag" id="character-list"></span>
+    <div class="div__default">
+        <h1 class="h1__character-list">
+            La Taverna de Personajes: Listado de Aventureres
+        </h1>
+        <p>
+            <span class="span__center-quote">«En las sombras de las leyendas, siempre hay un nombre que resuena con fuerza».</span><br>
+            <span class="span__start-quote">Cada personaje tiene su historia, su gloria, sus cicatrices.<br>
+                En esta galería encontrarás a protagonistas de estas épicas historias: brujes que manipulan la realidad, pícaros de mirada astuta, clérigos de luz celestial y guerreras que desafían incluso a la muerte.<br>  
+                Esta no es solo una lista. Es un códice viviente de quienes se atrevieron a soñar mundos más grandes. Aquí podrás explorar sus características, trasfondos, habilidades y aspiraciones.<br>
+                Porque detrás de cada hoja de personaje hay una llama que arde con fuerza.<br>
+                Y quizás, entre elles, encuentres a la heroína —<cite>o villano</cite>— que necesitas.
+                </span>
+        </p>
+
+        <button class="button__default" aria-label="Sitio Oficial" onclick="window.location.href='./views/characterList.html'">
+            <img src="./assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón a la Página de Listar de Personajes representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada.">
+            <span>Personajes</span>
+        </button>
+    </div>
+
+    <span class="span__anchor-tag" id="tips"></span>
+    <div class="div__default">
+        <h1 class="h1__tips">
+            Consejos de Aventureres: La Biblioteca de Sabiduría
+        </h1>
+        <p>
+            <span class="span__center-quote">«La mejor espada se forja tanto con fuego como con conocimiento».</span><br>
+            <span class="span__start-quote">Acceso a guías, videos, y secretos ancestrales para perfeccionar tus creaciones.<br>
+                Desde estrategias de juego hasta trucos de diseño, aquí encontrarás lo que necesitas para convertirte en una leyenda.<br>
+                Prepárate para absorber la sabiduría de otres viajeres y forjar tu propio camino hacia la grandeza.
+                </span>
+        </p>
+
+        <button class="button__default" aria-label="Sitio Oficial" onclick="window.open('https://www.youtube.com/results?search_query=Creaci%C3%B3n+de+personaje+D%26D+5e', '_blank')">
+            <img src="./assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón a una Búsqueda de Consejos representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada.Construcción de Personajes"/>
+            <span>Consejos</span>
+        </button>
+    </div>
+
+    <span class="span__anchor-tag" id="comunity"></span>
+    <div class="div__default">
+        <h1 class="h1__comunity">
+            Comunidad: Tu Clan de Aventureres
+        </h1>
+        <p>
+            <span class="span__center-quote">«Ninguna aventura aquí se completa en soledad».</span><br>
+            <span class="span__start-quote">Únete a comunidades vibrantes en Facebook, foros de discusión y grupos de Discord donde compartir historias, personajes y proyectos.<br>
+                Dungeons & Designers no es solo un sitio: es un campamento base para personas soñadoras, diseñadoras y narradores que desean construir mundos juntos.<br>
+                Tu voz importa. Tu historia merece ser contada. Ven, y encuentra a tu tribu.</span>
+        </p>
+        <button class="button__default" aria-label="Sitio Oficial" onclick="window.open('https://www.google.com/search?q=Foro+Dungeons+%26+Dragons+Facebook', '_blank')">
+            <img src="./assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón a una Busqueda de Foros representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada.Construcción de Personajes"/>
+            <span>Comunidad</span>
+        </button>
+    </div>
+
+    <br><br><br><br><br>
+
+    <footer class="footer">
+        <p>Diseño y Desarrollo: <a href="https://github.com/ArtDaSak" target="_blank" aria-label="Ir al Perfil de GitHub de la Persona que desarrolló el proyecto.">ArtDaSak</a> | Recursos e inspiración: © 1993-2025 Wizards of the Coast LLC, una filial de Hasbro, Inc. | Todos los derechos reservados.</p>
+    </footer>
 </body>
+
 </html>
