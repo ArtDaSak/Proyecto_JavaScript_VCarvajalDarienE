@@ -1,0 +1,219 @@
+@import url('../variables.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "charm-regular", serif;
+    line-height: 1.6;
+    background-color: var(--columbia-blue);
+    color: var(--raisin-black);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--dodger-blue);
+    color: var(--columbia-blue);
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 30px;
+    font-family: "homemadeapple-regular", serif;
+    box-shadow: 0 4px 6px var(--raisin-black-transparent-50);
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+h1, h2 {
+    font-family: 'cinzel-semi-bold', serif;
+    margin-bottom: 20px;
+}
+
+.new-post {
+    background-color: var(--columbia-blue-transparent-75);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--raisin-black-transparent-50);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: 'cinzel-medium', serif;
+    color: var(--dodger-blue);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--raisin-black-transparent-75);
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: "charm-regular", serif;
+    background-color: var(--columbia-blue);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--dodger-blue);
+    box-shadow: 0 0 8px var(--dodger-blue-transparent-75);
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button {
+    background-color: var(--dodger-blue);
+    color: var(--columbia-blue);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: "homemadeapple-regular", serif;
+    transition: background-color 0.3s, transform 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover {
+    background-color: var(--tang-blue);
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    background-color: var(--raisin-black-transparent-50);
+    cursor: not-allowed;
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s, height 0.4s;
+}
+
+button:active::after {
+    width: 200px;
+    height: 200px;
+}
+
+.posts {
+    background-color: var(--columbia-blue-transparent-75);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--raisin-black-transparent-50);
+}
+
+.post {
+    border-bottom: 1px solid var(--raisin-black-transparent-50);
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+.post:hover {
+    background-color: var(--dodger-blue-transparent-75);
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.post-author {
+    font-weight: bold;
+    color: var(--dodger-blue);
+    font-family: 'cinzel-medium', serif;
+    font-size: 1.1rem;
+}
+
+.post-date {
+    color: var(--raisin-black-transparent-75);
+    font-size: 0.9rem;
+}
+
+.post-content {
+    line-height: 1.7;
+    font-family: "charm-regular", serif;
+    font-size: 1rem;
+}
+
+.loading {
+    text-align: center;
+    padding: 25px;
+    color: var(--raisin-black-transparent-75);
+    font-family: "charm-regular", serif;
+    font-size: 1.1rem;
+}
+
+.error-message {
+    color: var(--fire-engine-red);
+    text-align: center;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 6px;
+    display: none;
+    font-family: "homemadeapple-regular", serif;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    color: var(--raisin-black-transparent-75);
+    font-size: 0.9rem;
+    font-family: "charm-regular", serif;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .new-post, .posts {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
