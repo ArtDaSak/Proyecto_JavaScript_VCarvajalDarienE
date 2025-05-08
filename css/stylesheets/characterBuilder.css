@@ -72,3 +72,49 @@ footer a {
     color: var(--tang-blue);
     text-decoration: none;
 }
+form#characterForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    max-width: 30vw;
+    margin: 9vw auto;
+    padding: 2vw;
+    border: 0.1vw solid var(--columbia-blue-transparent-50);
+    border-radius: 0.6vw;
+    background-color: var(--raisin-black-transparent-50);
+    box-shadow: 0 0.3vw 0.5vw var(--raisin-black-transparent-90);
+}
+
+form#characterForm label {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: var(--columbia-blue);
+}
+
+form#characterForm input[type="text"],
+form#characterForm select {
+    padding: 0.7vw;
+    font-size: 1.2vw;
+    border: 0.1vw solid var(--columbia-blue-transparent-50);
+    border-radius: 0.3vw;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--raisin-black);
+    color: var(--columbia-blue);
+}
+
+form#characterForm button[type="submit"] {
+    padding: 1vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: var(--raisin-black);
+    background-color: var(--tang-blue);
+    border: none;
+    border-radius: 0.3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form#characterForm button[type="submit"]:hover {
+    background-color: var(--columbia-blue);
+}

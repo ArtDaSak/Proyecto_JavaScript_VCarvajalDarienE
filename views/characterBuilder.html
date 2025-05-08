@@ -10,7 +10,7 @@
     <link rel="icon" href="../assets/img/favicon.png" type="image/png"/>
 
     <link rel="stylesheet" href="../css/stylesheets/characterBuilder.css"/>
-    <script src="../js/scripts/characterBuilder.js"></script>
+    <script type="module" src="../js/scripts/characterBuilder.js"></script>
 </head>
 
 <body>
@@ -24,10 +24,46 @@
         </nav>
     </header>
 
+    <main></main>
+        <form id="characterForm">
+            <label for="characterName">Nombre del Personaje:</label>
+            <input type="text" id="characterName" name="characterName" required/>
+
+            <label for="characterClass">Clase del Personaje:</label>
+            <select id="characterClass" name="characterClass" required>
+                <option value="warrior">Guerrero</option>
+                <option value="mage">Mago</option>
+                <option value="rogue">Pícaro</option>
+            </select>
+
+            <button type="submit">Crear Personaje</button>
+        </form>
+    </main>
 
     <footer class="footer">
         <p>Diseño y Desarrollo: <a href="https://github.com/ArtDaSak" target="_blank" aria-label="Ir al Perfil de GitHub de la Persona que desarrolló el proyecto.">ArtDaSak</a> | Recursos e inspiración: © 1993-2025 Wizards of the Coast LLC, una filial de Hasbro, Inc. | Todos los derechos reservados.</p>
     </footer>
+
+    <script type="module">
+        import { createCharacter } from '../js/scripts/characterBuilder.js';
+        import { fetchApiData } from '../js/api.js';
+
+        const form = document.getElementById('characterForm');
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const characterName = document.getElementById('characterName').value;
+            const characterClass = document.getElementById('characterClass').value;
+
+            // Llamar a la función para crear el personaje
+            const character = createCharacter(characterName, characterClass);
+
+            // Opcional: Llamar a la API para guardar el personaje
+            await fetchApiData(character);
+
+            alert('Personaje creado con éxito');
+        });
+    </script>
 </body>
 
 </html>
