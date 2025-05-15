@@ -14,18 +14,23 @@
 
 <body>
     <header class="header">
-    <a href="../index.html"><img src="../assets/img/logos/textLogo/textLogoTangBlue.png" alt="Isologo de Dungeons and Designers con un color cambiante de Azul Marino a Blanco Azulado."></a>
+    <a href="../index.html" aria-label="Ir a la página principal">
+        <img src="../assets/img/logos/textLogo/textLogoTangBlue.png" alt="Isologo de Dungeons and Designers con un color cambiante de Azul Marino a Blanco Azulado.">
+    </a>
     <nav>
         <ul>
-            <li>Registro & Login</li>
-            <li class="header__profile"><img src="../assets/icons/dragonColumbiaBlue.svg"></li>
+            <li>Inicio de Sesión & Registro</li>
+            <li class="header__profile">
+                <img src="../assets/icons/dragonColumbiaBlue.svg" alt="Icono de perfil de usuario">
+            </li>
         </ul>
     </nav>
     </header>
-    <div class="container">
-        <div class="register-container" id="register-form">
-            <h2>Registro</h2>
-            <form id="register">
+
+    <div>
+        <h2>Registrarse</h2>
+        <div class="register-container" id="register-form" aria-label="Sección de registro">
+            <form id="register" aria-label="Formulario de registro de usuario">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required>
                 
@@ -47,23 +52,35 @@
                 <label for="password">Contraseña:</label>
                 <input type="password" id="password" name="password" required>
                 
-                <button type="submit">Registrarse</button>
+                <button class="button__default" type="submit" aria-label="Ir al Sitio Oficial de Dungeons and Dragons">
+                    <img src="../assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón al Sitio Oficial representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada."/>
+                    <span>Registrarse</span>
+                </button>
             </form>
         </div>
-        
-        <div class="login-container" id="login-form">
-            <h2>Iniciar Sesión</h2>
-            <form id="login">
+    </div>
+    
+    <p class="o">O</p>
+
+
+    <div>
+        <h2>Iniciar Sesión</h2>
+        <div class="login-container" id="login-form" aria-label="Sección de inicio de sesión">
+            <form id="login" aria-label="Formulario de inicio de sesión de usuario">
                 <label for="login-email">Email:</label>
                 <input type="email" id="login-email" name="email" required>
                 
                 <label for="login-password">Contraseña:</label>
                 <input type="password" id="login-password" name="password" required>
                 
-                <button type="submit">Iniciar Sesión</button>
+                <button class="button__default" type="submit" aria-label="Ir al Sitio Oficial de Dungeons and Dragons">
+                    <img src="../assets/icons/buttomBlackAndBlue.svg" alt="Imagen del botón al Sitio Oficial representado por una etiqueta de color negroáceo, bordeado por una línea azul marino. La etiqueta tiene una esquina doblada en la parte inferior derecha, simulando una hoja doblada."/>
+                    <span>Iniciar Sesión</span>
+                </button>
             </form>
         </div>
     </div>
+
     <footer class="footer">
     <p>Diseño y Desarrollo: <a href="https://github.com/ArtDaSak" target="_blank" aria-label="Ir al Perfil de GitHub de la Persona que desarrolló el proyecto.">ArtDaSak</a> | Recursos e inspiración: © 1993-2025 Wizards of the Coast LLC, una filial de Hasbro, Inc. | Todos los derechos reservados.</p>
     </footer>
