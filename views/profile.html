@@ -1,1 +1,76 @@
-<p>Página de Perfil</p>
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Inicio de Sesión</title>
+    <link rel="icon" href="../assets/img/logos/andSilverDragon.png" type="image/png"/>
+
+    <link rel="stylesheet" href="../css/stylesheets/profile.css"/>
+</head>
+
+<body>
+    <header class="header">
+    <a href="../index.html"><img src="../assets/img/logos/textLogo/textLogoTangBlue.png" alt="Isologo de Dungeons and Designers con un color cambiante de Azul Marino a Blanco Azulado."></a>
+    <nav>
+        <ul>
+            <li>Registro & Login</li>
+            <li class="header__profile"><img src="../assets/icons/dragonColumbiaBlue.svg"></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+        <div class="register-container" id="register-form">
+            <h2>Registro</h2>
+            <form id="register">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="birth">Fecha de Nacimiento:</label>
+                <input type="date" id="birth" name="birth" required>
+                
+                <label for="gender">Género:</label>
+                <select id="gender" name="gender" required>
+                    <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="No Binario">No Binario</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+        
+        <div class="login-container" id="login-form">
+            <h2>Iniciar Sesión</h2>
+            <form id="login">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="email" required>
+                
+                <label for="login-password">Contraseña:</label>
+                <input type="password" id="login-password" name="password" required>
+                
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+    <p>Diseño y Desarrollo: <a href="https://github.com/ArtDaSak" target="_blank" aria-label="Ir al Perfil de GitHub de la Persona que desarrolló el proyecto.">ArtDaSak</a> | Recursos e inspiración: © 1993-2025 Wizards of the Coast LLC, una filial de Hasbro, Inc. | Todos los derechos reservados.</p>
+    </footer>
+
+    <br><br><br><br><br>
+
+    <script src="../js/scripts/profile.js"></script>
+</body>
+
+</html>
