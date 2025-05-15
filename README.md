@@ -28,7 +28,7 @@ En esta app puedes:
 
 ## 🧭 Instrucciones de uso:
 
-- 1️⃣ Abre la aplicación en tu navegador 🌐 desde el enlace de [GitPages](https://artdasak.github.io/Proyecto_JavaScript_VCarvajalDarienE/).
+- 1️⃣ Abre la aplicación en tu navegador 🌐 desde el enlace de [GitHubPages](https://artdasak.github.io/DungeonsAndDesigners).
 - 2️⃣ Selecciona la raza, clase, género y nombre de tu personaje 🧑.
 - 3️⃣ Personaliza tu personaje con armaduras, armas, accesorios, estadísticas y habilidades especiales 🛡️⚔️.
 - 4️⃣ Guarda 💾 tu personaje en tu lista personal.
