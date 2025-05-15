@@ -18,22 +18,24 @@ Todo esto se acompaña de una experiencia fluida y responsiva, ideal para cualqu
 
 En esta app puedes:
 
-- 🌈 Elegir raza, clase, género y nombre personalizado.
-- 🛡️ Equipar armaduras, armas y accesorios visuales.
-- 📊 Asignar estadísticas y habilidades especiales.
-- 💾 Guardar tus personajes favoritos en el navegador.
-- 🔍 Consultar la lista de personajes creados y ver sus detalles.
+* 🧝‍♀️ Registrarte como aventurere y abrir tu propio portal al multiverso.
+* 🛡️ Crear personajes personalizables eligiendo raza, clase, género y nombre.
+* ⚔️ Equiparlos con armas, armaduras, accesorios y habilidades especiales.
+* 🎲 Asignar estadísticas únicas y atributos que marcarán su destino.
+* 💬 Unirte a una **comunidad legendaria** y participar en el **foro**, compartiendo ideas y estrategias con otres aventureres como tú.
+
+_Porque **Dungeons & Designers** no es solo una app… es un gremio._
 
 ---
 
 ## 🧭 Instrucciones de uso:
 
-- 1️⃣ Abre la aplicación en tu navegador 🌐 desde el enlace de [GitHubPages](https://artdasak.github.io/DungeonsAndDesigners).
-- 2️⃣ Selecciona la raza, clase, género y nombre de tu personaje 🧑.
-- 3️⃣ Personaliza tu personaje con armaduras, armas, accesorios, estadísticas y habilidades especiales 🛡️⚔️.
-- 4️⃣ Guarda 💾 tu personaje en tu lista personal.
-- 5️⃣ Consulta la lista de personajes 📋 y revisa sus detalles.
-- 6️⃣ ¡Disfruta de tu aventura en el reino de 🧙‍♂️ Dungeons & Designers! ✨.
+* 1️⃣ Abre el portal en tu navegador desde el enlace de [GitHubPages](https://artdasak.github.io/DungeonsAndDesigners).
+* 2️⃣ Dirígete al apartado **Perfil** para registrarte o iniciar sesión como creadorx.
+* 3️⃣ Ingresa al taller de diseño y selecciona raza, clase, género y nombre de tu personaje 🧝‍♂️.
+* 4️⃣ Explora la taberna de personajes para conocer otras historias y perfiles.
+* 5️⃣ Accede a la **Comunidad** y deja tu huella en el **foro de aventureres**. Comparte tus obras, recibe consejos y encuentra tu equipo.
+* 6️⃣ ¡Vive la experiencia de ser el diseñador de tu propio mundo en *Dungeons & Designers*! ✨
 
 ---
 
