@@ -8,7 +8,7 @@
 
 body {
     position: relative;
-    background: url(../../assets/img/backgrounds/main/2560x1600-terrain-wa.jpg) no-repeat center top / cover fixed;
+    background: url(../../assets/img/backgrounds/village.jpg) no-repeat center top / cover fixed;
     background-color: var(--raisin-black);
 }
 

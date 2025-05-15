@@ -8,7 +8,7 @@
 
 body {
     position: relative;
-    background: url(../../assets/img/backgrounds/structure.jpg) no-repeat center top / cover fixed;
+    background: url(../../assets/img/backgrounds/castle.jpg) no-repeat center top / cover fixed;
     background-color: var(--raisin-black);
 }
 
